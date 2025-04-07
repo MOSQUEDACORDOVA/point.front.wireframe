@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="h-100" data-bs-theme="auto">
+<html lang="en" data-bs-theme="auto">
   <head><script src="../assets/js/color-modes.js"></script>
 
     <meta charset="utf-8">
@@ -7,21 +7,26 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.122.0">
-    <title>Cover Template · Bootstrap v5.3</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/cover/">
-
-    
+    <title>Escoger Destino</title>    
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
 
 <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-<link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-    <style>
 
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
 
       .b-example-divider {
         width: 100%;
@@ -87,13 +92,16 @@
       }
     </style>
 
+    
     <!-- Custom styles for this template -->
-    <link href="cover.css" rel="stylesheet">
+    <link href="navbars-offcanvas.css" rel="stylesheet">
     <link href="random.css" rel="stylesheet">
-    <link href="efecto-logo.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.hugeicons.com/font/hgi-stroke-rounded.css" />
     <link href="global.css" rel="stylesheet">
+
   </head>
-  <body class="d-flex h-100 text-center ">
+  <body class="overflow-hidden overflow-x-hidden">
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
       <symbol id="check2" viewBox="0 0 16 16">
         <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
@@ -109,38 +117,92 @@
         <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
       </symbol>
     </svg>
-        
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column align-items-center justify-content-center">
 
-      <main class="px-3 h-100 d-flex flex-column align-items-center justify-content-center">
-        <!-- Start Section Loader -->
-        <section class="loading_overlay d-flex flex-column align-items-center justify-content-center h-100">
-          <div class="container align-items-center d-flex flex-column justify-content-between h-100">
-              <div class="loader_logo d-flex justify-content-center h-100">
-                  <img src="LogoLight.svg" class="img-light logo" alt="Light Mode Image" />
-                  <img src="LogoDark.svg" class="img-dark logo" alt="Dark Mode Image" />
-              </div>
-              <div class="secion-bienvenida bg-red d-flex flex-column align-items-center w-100 gap-4">
-                  <div class="d-flex flex-column align-items-center">
-                      <h1 class="display-1">Tu tiempo vale</h1>
-                      <p class="fs-3">Y nosotros te lo ahorramos...</p>
+<main>
+  
+  <div class="navbar-sobre-mapa-inicio">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <nav class="navbar bg-body-tertiary border rounded-pill px-2" aria-label="Dark offcanvas navbar">
+            <div class="container ">
+              <div class="align-items-center d-flex w-100">
+
+                <div class="col-11 ps-md-0 d-flex align-items-center gap-3">
+                  <svg class="my-1" width="24" height="24" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24.9658 39.1727C24.1708 39.917 23.1081 40.3332 22.002 40.3332C20.896 40.3332 19.8334 39.917 19.0383 39.1727C11.7572 32.3142 1.99973 24.6525 6.75816 13.5292C9.33099 7.51496 15.507 3.6665 22.002 3.6665C28.4971 3.6665 34.6731 7.51496 37.246 13.5292C41.9984 24.6386 32.2648 32.3378 24.9658 39.1727Z" fill="#D9D9D9" stroke="#6C757D"/>
+                    <path d="M28.4163 20.1667C28.4163 23.7105 25.5435 26.5833 21.9997 26.5833C18.4558 26.5833 15.583 23.7105 15.583 20.1667C15.583 16.6228 18.4558 13.75 21.9997 13.75C25.5435 13.75 28.4163 16.6228 28.4163 20.1667Z" fill="#6C757D"/>
+                    </svg>
+                       
+                  <div class="d-flex align-items-center justify-content-between">
+                    <p class="m-0 text-secondary">Escoge un origen. . .</p>
                   </div>
+                </div>
+
               </div>
-          </div>
-        </section>
-        <!-- End. Loader -->
-      </main>
+            </div>
+          </nav>
+        </div>
 
+      </div>
     </div>
+  </div>
 
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  <div id="map" class="w-100 vh-100"></div>
 
-    <script>
-      // Redirige a otra página después de 3 segundos
-      setTimeout(() => {
-        window.location.href = "login.html"; // Cambia la URL por la deseada
-      }, 6000);
-    </script>
+  <div class="contenedorInferiorMapa position-absolute w-100 ">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 mb-2">
+          <div class="bg-body-tertiary border rounded">
+            <div class="container py-2">
+              <div class="mb-3 card">
+
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <small class="fw-bold text-secondary">Desde: </small>
+                    <div>Punto A</div>
+                  </li>
+                  <li class="list-group-item">
+                    <small class="fw-bold text-secondary">Hasta: </small>
+                    <div>Punto B</div>
+                  </li>
+                </ul>
+              </div>
+
+               <a href="index.html" class="btn btn-primary w-100 mt-2 d-flex align-items-center justify-content-between rounded-pill" type="button">
+                <div class="container"> Ver ruta</div>
+                 <i class="hgi hgi-stroke hgi-circle-arrow-right-02 fs-3"></i>
+               </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>      
+  </div>
+</main>
+
+<script>
+  // Inicializa el mapa
+  function initMap() { 
+    const location = { lat: 10.634260361154858, lng: -71.68298421740232 }; // Coordenadas iniciales
+    const map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 12,
+      center: location,
+      disableDefaultUI: true,
+    });
+    new google.maps.Marker({
+      position: location,
+      map: map,
+    });
+  }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAD_Big4tLNdA5qf9vY-gl7R6NyfPoif1I&callback=initMap"></script>
+
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
 
     </body>
 </html>

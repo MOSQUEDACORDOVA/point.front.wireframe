@@ -1,0 +1,40 @@
+.carousel-mc .swiper .animated-box img {
+    width: 100%;
+    height: 220px;
+    cursor: grab;
+}
+
+.carousel-mc .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-mc .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.content{
+    bottom: 0;
+    position: absolute;
+}
+
+.content{
+    background:linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,1));
+}
+.animated-box{
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+@media (min-width: 992px) {
+    .carousel-mc .swiper .animated-box img {
+        height: 300px;
+    }
+}
