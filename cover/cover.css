@@ -44,3 +44,12 @@
   color: #fff;
   border-bottom-color: #fff;
 }
+
+
+.secion-bienvenida{
+  display: block;
+  transform: translate3d(-200vh, 100%, 0);
+  animation: slideInUp forwards; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
+  animation-delay: 2.5s;
+}
